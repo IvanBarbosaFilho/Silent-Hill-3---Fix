@@ -21,10 +21,8 @@ equivalent in [`docs/pcfix.md`](docs/pcfix.md).
 - Configurable stick deadzone, with compensation for the game's own 25% deadzone.
 
 **Frame rate**
-- Frame limit of 30 / 60 / 75 / 90 / 100 / 120 / 144 / 165 / 180 / 200 / 240, or uncapped. The game's
-  time step is rescaled to the real frame time, so speed stays correct.
+- Frame limit options, or uncapped.
 - On-time frames advance by exactly one period, so animations do not jitter.
-- 30 fps is applied automatically in the hospital storeroom (mirror room), whose effects are frame-based.
 
 **Graphics**
 - Direct3D 8 → **Vulkan** through DXVK.
@@ -33,8 +31,8 @@ equivalent in [`docs/pcfix.md`](docs/pcfix.md).
 - Original fog detail, a pixelation fix for full-screen effects and anisotropic filtering.
 - Borderless window at the desktop resolution, a window, or fullscreen.
 
-**Over-the-shoulder camera** (optional)
-- Toggle with **R3** or **V**. Move it around Heather with the **right stick**.
+**Over-the-shoulder camera** 
+- Toggle with **R3** or **V**.
 - It only moves the camera: aiming and controls are unchanged. Cutscene and scripted cameras are
   never touched.
 
