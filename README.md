@@ -82,38 +82,6 @@ camera and frame-rate settings.
 | Right stick | move the over-the-shoulder camera |
 | F9 | reload camera and FPS settings |
 
-## Building
-
-Requires Nix, or MinGW-w64 (i686) plus SDL3 for Windows.
-
-```sh
-git clone --recurse-submodules <repo> && cd <repo>
-nix-shell --run 'make -C input'        # dinput8.dll + SDL3.dll (all the game mods live here)
-installer/build_payload.sh             # collects the mods + DXVK into installer/payload/
-installer/build_exe_wine.sh            # sh3-mods.exe via Windows Python under Wine
-                                       # (or installer/build_exe.sh on Windows)
-```
-
-`.github/workflows/build.yml` builds the DLLs and the Windows installer in CI.
-
-## How it works
-
-| Part | Where | Notes |
-|---|---|---|
-| Input proxy, virtual pad, rumble, remap | `input/src/{di_wrap,vdevice,gamepad}.cpp` | [docs/input.md](docs/input.md) |
-| Frame limiter and time step | `input/src/fps.cpp` | [docs/fps.md](docs/fps.md) |
-| Widescreen, FOV, window | `input/src/display.cpp` | |
-| Effect resolutions, pixelation fix | `input/src/graphics.cpp` | [docs/graphics.md](docs/graphics.md) |
-| Camera | `input/src/camera.cpp` | [docs/camera.md](docs/camera.md) |
-| Hang fixes | `input/src/threads.cpp` | |
-| Paths, disp.ini, text fixes, game options | `input/src/{paths,game}.cpp` | [docs/pcfix.md](docs/pcfix.md) |
-| Renderer | DXVK (`d3d8/` = d3d8to9 fallback) | [docs/renderer.md](docs/renderer.md) |
-| Installer / configurator | `installer/` | [installer/README.md](installer/README.md) |
-| Reverse-engineering tools | `re/` | Ghidra scripts, live memory client (`mem.py`) |
-
-Every patch checks the original bytes before writing. On an unexpected build it logs the problem
-and skips the patch instead of corrupting the game.
-
 ## Credits
 
 - **Steam006**: Silent Hill 3 PC Fix, the reference for most fixes. The English text corrections were
@@ -125,7 +93,3 @@ and skips the patch instead of corrupting the game.
 Licenses of the bundled components are in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
 Silent Hill is a trademark of Konami. This project contains no game files and is not affiliated with
 Konami.
-
-## License
-
-To be decided.
