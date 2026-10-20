@@ -13,7 +13,10 @@ It replaces **Steam006's Silent Hill 3 PC Fix**.
 ## Install
 
 1. Go to [abandonware](https://www.myabandonware.com/game/silent-hill-3-bge) and download these 2 files:
-   *(your images here)*
+   <img width="511" height="56" alt="image" src="https://github.com/user-attachments/assets/9263157d-e869-45b7-ba1d-47eef11fe55e" />
+   <img width="423" height="62" alt="image" src="https://github.com/user-attachments/assets/52cd58c7-065f-4bad-92a8-62d1cfa471b9" />
+
+
 2. Download **Silent.Hill.3.Rebirth.exe** from the [latest release](https://github.com/IvanBarbosaFilho/Silent-Hill-3-Rebirth/releases/latest) and run it.
    > Windows may show *"Windows protected your PC"* because the .exe is not signed: click **More info → Run anyway**.
 3. Fill in the installer:
