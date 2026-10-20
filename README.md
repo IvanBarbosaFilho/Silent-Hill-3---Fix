@@ -11,10 +11,14 @@ executable; the notes are in [`docs/`](docs).
 It replaces **Steam006's Silent Hill 3 PC Fix**. Each of its runtime patches is mapped to an
 equivalent in [`docs/pcfix.md`](docs/pcfix.md).
 
+## Tutorial
+
+[abandonware](https://www.myabandonware.com/game/silent-hill-3-bge)
+
 ## Features
 
 **Controller** (`dinput8.dll` + SDL3)
-- Works with modern pads (Xbox, PlayStation, Switch Pro, 8BitDo...), including hotplug.
+- Works with modern controls, including hotplug.
 - **Vibration.** The PC port has the PS2 rumble code, but XInput pads never received it through
   DirectInput.
 - Full button remapping, including back paddles.
