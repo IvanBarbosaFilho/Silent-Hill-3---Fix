@@ -23,6 +23,23 @@ And Download this 2 files
 
 <img width="478" height="54" alt="image" src="https://github.com/user-attachments/assets/f5554e78-9220-4a17-b0b3-3be62ee699c7" />
 
+Download the .exe from this project
+
+.Exe as administrator
+
+<img width="728" height="659" alt="image" src="https://github.com/user-attachments/assets/7917896c-2979-44e0-90a2-2006b62c4a39" />
+
+Game Folder is where you want the game to be install
+
+Game disc is the .zip download earlier
+
+And the .exe download earlier too
+
+(Choose Vulkan for newer pcs, just make sure your pc have updated drivers, and DirectX for older machines)
+
+After the software run, it can be use for config the game
+
+and just exec the game in the folder you downloaded
 
 ## Features
 
