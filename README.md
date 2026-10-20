@@ -38,7 +38,7 @@ Game Folder is where you want the game to be install
 
 Game disc is the .zip download earlier
 
-And the .exe download earlier too
+And the .exe download earlier too, from NOCD zip
 
 (Choose Vulkan for newer pcs, just make sure your pc have updated drivers, and DirectX for older machines)
 
