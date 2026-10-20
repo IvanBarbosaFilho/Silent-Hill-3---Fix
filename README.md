@@ -79,22 +79,10 @@ and just exec the game in the folder you downloaded
   pause menu, Silent Hill 2 easter eggs, and a pinned language.
 - The game runs from any folder without its installer (registry paths answered from the game folder).
 
-## Requirements
-
-- **Your own Silent Hill 3 PC DVD**, as an `.iso` or a `.zip` containing it.
-  Supported: the European disc (En/Fr/De/Es/It). Other discs need a manifest, see
-  [`installer/README.md`](installer/README.md).
-- **A DRM-free `sh3.exe`** of the original build (PE timestamp 2003-09-03). The exe on the disc uses
-  SecuROM, which no longer runs on modern systems, and this project does not provide a replacement.
-  All patches target this exact build, and the installer checks it.
-- Windows 10/11, or Linux with Wine/Proton. A Vulkan-capable GPU.
-- Optional: the PC Fix download, used only to take `Sounds/SH3_20016.mp3` for the missing dialogue
-  sound.
-
 ## Install
 
 1. Download `sh3-mods.exe` (on Linux, run it with Wine or Proton).
-2. Pick the **game folder**, the **game disc** (.zip or .iso) and your **DRM-free sh3.exe**.
+2. Pick the **game folder**, the **game disc** (.zip or .iso) and your **sh3.exe**.
    Optionally pick the PC Fix zip.
 3. Press **Install**. A full install takes about 30 seconds. It extracts the game straight from the
    disc image, applies the sound fix and adds the mods.
