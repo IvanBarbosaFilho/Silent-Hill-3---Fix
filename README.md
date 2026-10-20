@@ -24,12 +24,12 @@ And Download this 2 files
 
 <img width="478" height="54" alt="image" src="https://github.com/user-attachments/assets/f5554e78-9220-4a17-b0b3-3be62ee699c7" />
 
-Download the .exe from this project
 
 Under Realeses, click the "Fixes"
 
 <img width="1227" height="515" alt="image" src="https://github.com/user-attachments/assets/ad6247ff-a282-4f1b-b7b7-eb3443834972" />
 
+Download the .exe from this project
 
 .Exe as administrator
 
