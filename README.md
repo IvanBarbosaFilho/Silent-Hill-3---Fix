@@ -10,42 +10,20 @@ executable;
 
 It replaces **Steam006's Silent Hill 3 PC Fix**.
 
-## install
+## Install
 
-go to the site:
+1. Go to [abandonware](https://www.myabandonware.com/game/silent-hill-3-bge) and download these 2 files:
+   *(your images here)*
+2. Download **Silent.Hill.3.Rebirth.exe** from the [latest release](https://github.com/IvanBarbosaFilho/Silent-Hill-3-Rebirth/releases/latest) and run it.
+   > Windows may show *"Windows protected your PC"* because the .exe is not signed: click **More info → Run anyway**.
+3. Fill in the installer:
+   - **Game folder:** where you want the game to be installed.
+   - **Game disc:** the .zip you downloaded in step 1.
+   - **DRM-free sh3.exe:** the .exe from the NoCD zip you downloaded in step 1.
+   - **Renderer:** Vulkan for newer PCs (keep your GPU drivers updated), DirectX 9 for older ones. The installer picks one for you.
+4. Press **Install**, then start `sh3.exe` from the game folder.
 
-[abandonware](https://www.myabandonware.com/game/silent-hill-3-bge)
-
-And Download this 2 files
-
-<img width="518" height="65" alt="image" src="https://github.com/user-attachments/assets/244bd681-d8fb-40c4-a51b-22c298303bd2" />
-
-
-
-<img width="478" height="54" alt="image" src="https://github.com/user-attachments/assets/f5554e78-9220-4a17-b0b3-3be62ee699c7" />
-
-
-Under Releases, click the "Fixes"
-
-<img width="1227" height="515" alt="image" src="https://github.com/user-attachments/assets/ad6247ff-a282-4f1b-b7b7-eb3443834972" />
-
-Download the .exe from this project
-
-.Exe as administrator
-
-<img width="728" height="659" alt="image" src="https://github.com/user-attachments/assets/7917896c-2979-44e0-90a2-2006b62c4a39" />
-
-Game Folder is where you want the game to be install
-
-Game disc is the .zip download earlier
-
-And the .exe download earlier too, from NOCD zip
-
-(Choose Vulkan for newer pcs, just make sure your pc have updated drivers, and DirectX for older machines)
-
-After the software run, it can be use for config the game
-
-and just exec the game in the folder you downloaded
+Run the installer again at any time to change the settings.
 
 ## Features
 
