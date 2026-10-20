@@ -1,4 +1,4 @@
-# sILENT hILL 3: Rebirth
+# Silent Hill 3: Rebirth
 
 A modern platform layer for the 2003 PC release of **Silent Hill 3**: better controller support,
 Vulkan rendering, a selectable frame rate, widescreen, an optional over-the-shoulder camera and a
