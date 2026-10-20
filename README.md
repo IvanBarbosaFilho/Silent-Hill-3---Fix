@@ -6,10 +6,9 @@ long list of fixes. It also includes an installer that builds a working game fol
 
 The game logic is left untouched. The mods replace the parts around it (input, timing, rendering and
 file paths) and patch a handful of known bugs. Everything was reverse engineered from the game
-executable; the notes are in [`docs/`](docs).
+executable;
 
-It replaces **Steam006's Silent Hill 3 PC Fix**. Each of its runtime patches is mapped to an
-equivalent in [`docs/pcfix.md`](docs/pcfix.md).
+It replaces **Steam006's Silent Hill 3 PC Fix**.
 
 ## install
 
@@ -82,7 +81,7 @@ and just exec the game in the folder you downloaded
 
 ## Settings
 
-Run `sh3-mods.exe` again at any time. It remembers the game folder, and its tabs (Display, FPS,
+Run `Silent Hill 3 Rebirth.exe` again at any time. It remembers the game folder, and its tabs (Display, FPS,
 Graphics, Controller, Button mapping, Camera, Game) edit `sh3_input.ini` and `dxvk.conf`.
 You can also edit `sh3_input.ini` by hand; every option is commented. In game, **F9** reloads the
 camera and frame-rate settings.
