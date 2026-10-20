@@ -26,7 +26,9 @@ And Download this 2 files
 
 Download the .exe from this project
 
-<img width="326" height="568" alt="image" src="https://github.com/user-attachments/assets/675fd9e2-73cb-4020-9a9f-197615d1bc00" />
+Under Realeses, click the "Fixes"
+
+<img width="1227" height="515" alt="image" src="https://github.com/user-attachments/assets/ad6247ff-a282-4f1b-b7b7-eb3443834972" />
 
 
 .Exe as administrator
