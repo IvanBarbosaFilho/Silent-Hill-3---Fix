@@ -11,7 +11,7 @@ executable; the notes are in [`docs/`](docs).
 It replaces **Steam006's Silent Hill 3 PC Fix**. Each of its runtime patches is mapped to an
 equivalent in [`docs/pcfix.md`](docs/pcfix.md).
 
-## Tutorial
+## install
 
 go to the site:
 
@@ -79,18 +79,6 @@ and just exec the game in the folder you downloaded
   pause menu, Silent Hill 2 easter eggs, and a pinned language.
 - The game runs from any folder without its installer (registry paths answered from the game folder).
 
-## Install
-
-1. Download `sh3-mods.exe` (on Linux, run it with Wine or Proton).
-2. Pick the **game folder**, the **game disc** (.zip or .iso) and your **sh3.exe**.
-   Optionally pick the PC Fix zip.
-3. Press **Install**. A full install takes about 30 seconds. It extracts the game straight from the
-   disc image, applies the sound fix and adds the mods.
-4. Start `sh3.exe`.
-
-**Linux (Lutris / Steam / Proton):** set DLL overrides so the mod files load:
-`WINEDLLOVERRIDES="d3d8,d3d9,dinput8=n,b"`. In Steam, put it in Launch Options followed by `%command%`.
-In Lutris, use Runner options → DLL overrides: `d3d8`, `d3d9`, `dinput8` = `n,b`.
 
 ## Settings
 
