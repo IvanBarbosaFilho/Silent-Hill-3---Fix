@@ -27,6 +27,8 @@ And Download this 2 files
 
 Download the .exe from this project
 
+<img width="313" height="101" alt="image" src="https://github.com/user-attachments/assets/b11fe440-79eb-42af-b543-997cd91122d5" />
+
 .Exe as administrator
 
 <img width="728" height="659" alt="image" src="https://github.com/user-attachments/assets/7917896c-2979-44e0-90a2-2006b62c4a39" />
