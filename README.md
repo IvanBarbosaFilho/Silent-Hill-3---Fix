@@ -22,7 +22,7 @@ It replaces **Steam006's Silent Hill 3 PC Fix**.
 3. Fill in the installer:
    - **Game folder:** where you want the game to be installed.
    - **Game disc:** the .zip you downloaded in step 1.
-   - **DRM-free sh3.exe:** the .exe from the NoCD zip you downloaded in step 1.
+   - **sh3.exe:** the .exe from the NoCD zip you downloaded in step 1.
    - **Renderer:** Vulkan for newer PCs (keep your GPU drivers updated), DirectX 9 for older ones. The installer picks one for you.
 4. Press **Install**, then start `sh3.exe` from the game folder.
 
